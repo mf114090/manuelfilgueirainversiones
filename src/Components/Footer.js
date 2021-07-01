@@ -1,9 +1,12 @@
+import React from "react";
+
 const Footer = () => {
     return (
-        <footer className="footer mt-auto py-3 bg-dark text-white text-center">
-		<p>Made by Manue Filgueira</p>
-        </footer>
-        
+        <div className="d-flex flex-column flex-md-row align-text-center p-3 px-md-4 bg-dark border-bottom shadow-sm ">
+            <h5 className="my-0 mr-md-auto font-weight-normal text-white">
+                copyright
+            </h5>
+        </div>
 
 
     )

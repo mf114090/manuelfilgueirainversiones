@@ -1,7 +1,28 @@
 import React from "react";
+import  Jumbotrom  from "./Components/Jumbotrom";
+import  Card  from "./Components/Card";
+
+
 const Home = ()=> {
     return (
-      <h1>Home</h1>
+        <div className="home-headers">
+            <div className="container">
+			 <Jumbotrom />
+            </div>
+            <div className="home-body">
+                <div className="container">
+                    <Card />
+                    
+    
+                </div>
+            </div>    
+
+             
+                  
+			
+			
+		</div>
+        
     )
 }
 

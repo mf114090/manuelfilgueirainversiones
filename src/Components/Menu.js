@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'; 
+import React from "react";
+
 const Menu = () => {
     return (
         <div className="navbar navbar-dark bg-dark text-white mb-3">
@@ -9,8 +11,6 @@ const Menu = () => {
                 <Link to ="Noticias">Noticias</Link>   
             </div>
         </div>
-
-
     )
 }
 

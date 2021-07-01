@@ -28,6 +28,8 @@ const App = ()=> {
             
             </Switch>
             
+            
+            
             <Footer />
         
         
