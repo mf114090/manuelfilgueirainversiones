@@ -5,10 +5,21 @@ const Menu = () => {
     return (
         <div className="navbar navbar-dark bg-dark text-white mb-3">
 			<div className="container">
-                <Link to ="/">Home</Link> | {" "} 
-                <Link to ="/About">About</Link> | {" "}
-                <Link to ="/Contact">Contact</Link> | {" "}
-                <Link to ="Noticias">Noticias</Link>   
+                
+                <Link to="/">
+					<span className="navbar-brand mb-0 fs2">Logo</span>
+				</Link> 
+				<div className="ml-auto"> 
+				<Link to="/Login">
+					<span className="navbar-brand mb-0 fs-2">About Us</span>
+				</Link> | {" "}
+				<Link to= "/contact">				
+					<span className="navbar-brand mb-0 fs-2">Contact Us</span>
+				</Link>| {" "}
+                <Link to= "/contact">				
+					<span className="navbar-brand mb-0 fs-2">News</span>
+				</Link> 
+                </div>
             </div>
         </div>
     )
