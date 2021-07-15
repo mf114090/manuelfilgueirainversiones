@@ -1,23 +1,25 @@
 import { Link } from 'react-router-dom'; 
 import React from "react";
+import Rentahousecl from "../img/rentahousecl.png";
 
 const Menu = () => {
     return (
-        <div className="navbar navbar-dark bg-dark text-white mb-3">
+        <div className="navbar bg-light  text-dark mb-3">
 			<div className="container">
                 
                 <Link to="/">
-					<span className="navbar-brand mb-0 fs2">Logo</span>
+					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
+                    
 				</Link> 
 				<div className="ml-auto"> 
-				<Link to="/Login">
-					<span className="navbar-brand mb-0 fs-2">About Us</span>
+				<Link to="/about">
+					<span className="text-dark mb-0 fs-4">About Us</span>
 				</Link> | {" "}
 				<Link to= "/contact">				
-					<span className="navbar-brand mb-0 fs-2">Contact Us</span>
+					<span className=" text-dark mb-0 fs-4">Contact Us</span>
 				</Link>| {" "}
-                <Link to= "/contact">				
-					<span className="navbar-brand mb-0 fs-2">News</span>
+                <Link to= "/noticias">				
+					<span className=" text-dark mb-0 fs-4">News</span>
 				</Link> 
                 </div>
             </div>
