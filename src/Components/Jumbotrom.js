@@ -1,15 +1,13 @@
 import React from "react";
-import imagen3 from "../img/imagen3.jpg";
+import Carrusel3 from "../img/carrusel3.jpg";
 
 const Jumbotrom = ()=> {
     return (
-        <div className="container-fluid">
-            <div className="card bg-dark text-white">
-                <img src={imagen3} className="card-img" alt="..."/> 
-                <div className="card-img-overlay">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p className="card-text">Last updated 3 mins ago</p>
+        <div id="carouselExampleCaptions" className=" mb-4" data-bs-ride="carousel">
+            <div className="jumbotrom ">
+                <div className="container-fluid">
+                    <img src={Carrusel3} className="d-block w-100"  height="750" alt="..."/>
+                      
                 </div>
             </div>
         </div>
