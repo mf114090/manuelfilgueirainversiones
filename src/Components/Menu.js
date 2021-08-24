@@ -12,13 +12,16 @@ const Menu = () => {
                     
 				</Link> 
 				<div className="ml-auto"> 
+				<Link to="/Login">
+					<span className="text-dark mb-0 fs-4">log in</span>
+				</Link> | {" "}
 				<Link to="/about">
 					<span className="text-dark mb-0 fs-4">About Us</span>
 				</Link> | {" "}
 				<Link to= "/contact">				
 					<span className=" text-dark mb-0 fs-4">Contact Us</span>
 				</Link>| {" "}
-                <Link to= "/noticias">				
+                <Link to= "/News">				
 					<span className=" text-dark mb-0 fs-4">News</span>
 				</Link> 
                 </div>
