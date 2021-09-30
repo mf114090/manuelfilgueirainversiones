@@ -1,6 +1,7 @@
 import React from "react";
 import  Jumbotrom  from "./Components/Jumbotrom";
 import  Card  from "./Components/Card";
+import Footer from "./Components/Footer";
 
 
 const Home = ()=> {
@@ -15,7 +16,12 @@ const Home = ()=> {
                     
     
                 </div>
-            </div>    
+            </div> 
+            <div className="Footer">
+                <Footer />
+                
+            </div> 
+
 
              
                   

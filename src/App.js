@@ -38,7 +38,7 @@ const App = ()=> {
             
             
             
-            <Footer />
+            
         
         
         </BrowserRouter>
