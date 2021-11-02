@@ -1,5 +1,5 @@
 import React from "react";
-import  Jumbotrom  from "./Components/Jumbotrom";
+import  Carrusel from "./Components/Carrusel";
 import  Card  from "./Components/Card";
 import Footer from "./Components/Footer";
 
@@ -8,7 +8,7 @@ const Home = ()=> {
     return (
         <div className="home-headers">
             <div className="container">
-			 <Jumbotrom />
+			 <Carrusel />
             </div>
             <div className="home-body">
                 <div className="container">

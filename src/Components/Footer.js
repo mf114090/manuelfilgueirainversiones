@@ -7,7 +7,7 @@ const Footer = () => {
                 copyright
             </h5>
         </div>
-
+        
 
     )
 }
