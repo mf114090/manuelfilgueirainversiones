@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 const Home = ()=> {
     return (
         <div className="home-headers">
-            <div className="container">
+            <div className="container-fluid">
 			 <Carrusel />
             </div>
             <div className="home-body">
