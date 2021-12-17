@@ -15,7 +15,7 @@ const App = ()=> {
     return (
         <BrowserRouter>
                   
-            <Menu />
+            <Menu /> 
 
             <Switch> 
                 <Route exact path="/LogIn" component ={login} />
@@ -35,6 +35,8 @@ const App = ()=> {
                 </Route>
             
             </Switch>
+           
+            <Footer/>
             
             
             

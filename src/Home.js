@@ -1,34 +1,29 @@
 import React from "react";
-import  Carrusel from "./Components/Carrusel";
-import  Card  from "./Components/Card";
+import Carrusel from "./Components/Carrusel";
+import Card from "./Components/Card";
 import Footer from "./Components/Footer";
+import Menu from "./Components/Menu";
 
 
-const Home = ()=> {
+const Home = () => {
     return (
-        <div className="home-headers">
-            <div className="container-fluid">
-			 <Carrusel />
+        <>
+            
+           
+            <div className="home-headers">
+
+                <Carrusel />
             </div>
-            <div className="home-body">
-                <div className="container">
-                    <Card />
-                    
-    
-                </div>
-            </div> 
-            <div className="Footer">
-                <Footer />
-                
-            </div> 
 
 
-             
-                  
-			
-			
-		</div>
-        
+            
+
+        </>
+
+
+
+
+
     )
 }
 
