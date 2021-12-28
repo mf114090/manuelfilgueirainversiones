@@ -11,9 +11,24 @@ const Home = () => {
             
            
             <div className="home-headers">
-
-                <Carrusel />
+                <div className="container-fluid">
+                    <Carrusel />
+                </div>
             </div>
+            
+            <div className="home-card p-5 text-center">
+                <div clasName="container">
+                    <div className="titulo p-5">
+                        <h1>Nuestros Servicios</h1>
+                    </div>
+                    <div className="card-body">
+                        <Card />
+                    </div>
+                    
+                </div>
+            
+            </div>
+
 
 
             
