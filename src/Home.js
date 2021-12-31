@@ -19,7 +19,7 @@ const Home = () => {
             
             <div className="home-card p-5 text-center">
                 <div clasName="container">
-                    <div className="titulo p-5">
+                    <div className="titulo">
                         <h1>Nuestros Servicios</h1>
                         <h3>..........</h3>
                     </div>

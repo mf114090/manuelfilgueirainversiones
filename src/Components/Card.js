@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 const Card = ()=> {
     return (
         <div className="container">
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4 text-dark">
                 <div className="col">
                     <div className="card h-100">
                         <img src={imagen3} class="card-img-top" alt="..."/>
