@@ -4,7 +4,7 @@ import Rentahousecl from "../img/rentahousecl.png";
 
 const Menu = () => {
     return (
-        <div className="navbar bg-light  text-dark mb-3">
+        <div className="navbar bg-light p-0 text-dark mb-3">
 			<div className="container">
                 
                 <Link to="/">

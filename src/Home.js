@@ -1,8 +1,9 @@
 import React from "react";
 import Carrusel from "./Components/Carrusel";
 import Card from "./Components/Card";
-import Footer from "./Components/Footer";
-import Menu from "./Components/Menu";
+// import Footer from "./Components/Footer";
+// import Menu from "./Components/Menu";
+import Banner from "./Components/Banner";
 
 
 const Home = () => {
@@ -11,9 +12,9 @@ const Home = () => {
             
            
             <div className="home-headers">
-                <div className="container-fluid">
+                {/* <div className="container-fluid"> */}
                     <Carrusel />
-                </div>
+                {/* </div> */}
             </div>
             
             <div className="home-card p-5 text-center">
@@ -25,13 +26,15 @@ const Home = () => {
                     <div className="card-body">
                         <Card />
                     </div>
+                </div>                          
+           
+            
+                <div className="home-banner p-5">
+                    
+                        <Banner />
                     
                 </div>
-            
-            </div>
-
-
-
+             </div>   
             
 
         </>
