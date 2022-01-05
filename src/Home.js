@@ -4,6 +4,8 @@ import Card from "./Components/Card";
 // import Footer from "./Components/Footer";
 // import Menu from "./Components/Menu";
 import Banner from "./Components/Banner";
+import Destacados from "./Components/Destacados";
+import Footer from "./Components/Footer";
 
 
 const Home = () => {
@@ -17,25 +19,39 @@ const Home = () => {
                 {/* </div> */}
             </div>
             
-            <div className="home-card p-5 text-center">
-                <div clasName="container">
-                    <div className="titulo">
-                        <h1>Nuestros Servicios</h1>
-                        <h3>..........</h3>
-                    </div>
-                    <div className="card-body">
-                        <Card />
-                    </div>
-                </div>                          
+            <div className="home-card p-5 text-center ">
+                                  
+                <div className="card-body p-5 ">
+                    <Card />    
+                </div>        
+                
+            </div>                          
            
             
-                <div className="home-banner p-5">
+            <div className="home-banner text-center ">
+                <div className="container-fluid"> 
                     
-                        <Banner />
+                    <Banner />    
+                </div>       
+            </div>  
+
+            <div className="home-banner text-center">
+                <div className="container">
+                     
                     
-                </div>
-             </div>   
-            
+                    <Destacados />    
+                </div>       
+            </div>
+
+            {/* <div className="d- flex footer p-5">
+              
+                    
+                    
+                     <Footer/>
+                     
+            </div>                 */}
+           
+           
 
         </>
 
