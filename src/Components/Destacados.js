@@ -5,6 +5,7 @@ import imagen3 from "../img/imagen3.jpg";
 import imagen4 from "../img/imagen4.jpg";
 import "bootstrap/dist/css/bootstrap.css";
 
+
 const Destacados = ()=> {
     return (
         <div className="container">
@@ -12,7 +13,7 @@ const Destacados = ()=> {
             <div className="row row-cols-1 row-cols-md-4 g-4 text-dark p-5">
                 <div className="col">
                     <div className="card h-100" >
-                        <img src={imagen3} class="card-img-top" alt="..."/> 
+                        <img src={imagen2} class="card-img-top" alt="..."/> 
                         <div className="card-body">
                             <h4 className="card-title">Venta de Propiedades</h4>
                             <p className="card-text">¿Quieres vender tu propiedad?</p>
