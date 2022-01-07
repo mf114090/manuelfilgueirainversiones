@@ -36,7 +36,7 @@ const App = ()=> {
             
             </Switch>
            
-            <Footer/>
+            
             
             
             

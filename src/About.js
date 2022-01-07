@@ -1,14 +1,19 @@
 import React from "react";
+import Footer from "./Components/Footer";
 
 import carrusel1 from "./img/carrusel1.jpg";
 import carrusel3 from "./img/carrusel3.jpg";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faVideo} from "@fortawesome/free-solid-svg-icons";
+import {faCamera} from "@fortawesome/free-solid-svg-icons";
+import {faVrCardboard} from "@fortawesome/free-solid-svg-icons";
 
 
 const About = () => {
     return (
 
         <div className="container">
-            <div className="card mb-3" style={{ maxWidth: "540 px;" }}>
+            <div className="card mb-3 border-white" >
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img src={carrusel1} className="img-fluid rounded-start" alt="..." />
@@ -30,7 +35,7 @@ const About = () => {
 
 
 
-            <div className="card mb-3" style={{ maxWidth: "540 px;" }}>
+            <div className="card mb-3 border-white" >
                 <div className="row g-0">
 
                     <div className="col-md-8">
@@ -57,34 +62,41 @@ const About = () => {
 
                 </div>
             </div>
-            <h1 className="titulo mt-5 p-5 text-center">Nuestros Asesores</h1>
+            <h1 className="titulo mt-5 p-5 text-center">Servicios Audiovisuales</h1>
                 <div className="card-group">
                 
                     
-                    <div className="card">
-                        <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card text-center border-white">
+                            <div className="icon" style={{fontSize: "60px" }}>
+                                <FontAwesomeIcon icon={faCamera} />
+                            </div>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Sesion Fotografica</h5>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                     </div>
-                    <div className="card border-white">
-                        <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card text-center border-white">
+                            <div className="icon" style={{fontSize: "60px" }}>
+                                <FontAwesomeIcon icon={faVideo} />
+                            </div>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Video Promosional</h5>
                                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                     </div>
-                    <div className="card border-white">
-                        <img src={carrusel3} className="card-img-top " alt="..."/>
+                    <div className="card text-center border-white">
+                            <div className="icon" style={{fontSize: "60px" }}>
+                                <FontAwesomeIcon icon={faVrCardboard} />
+                            </div>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
+                                <h5 className="card-title">Virtual Tour</h5>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                     </div>
+                    
                 </div>
 
 
@@ -93,12 +105,14 @@ const About = () => {
 
 
 
+                <Footer/>
 
 
-
-
+            
 
         </div>
+        
+
 
 
 

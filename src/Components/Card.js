@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHome} from "@fortawesome/free-solid-svg-icons";
 import {faHandshake} from "@fortawesome/free-solid-svg-icons";
-import {faMap} from "@fortawesome/free-solid-svg-icons";
+import {faMapMarked} from "@fortawesome/free-solid-svg-icons";
 
 const Card = ()=> {
     return (
@@ -40,7 +40,7 @@ const Card = ()=> {
                 <div className="col">
                     <div className="card h-100 border-white">
                         <div className="icon" style={{fontSize: "60px" }}>
-                            <FontAwesomeIcon icon={faMap} />
+                            <FontAwesomeIcon icon={faMapMarked} />
                         </div>
                             <div className="card-body">
                             <h4 classname="card-title">Oportunidades de Inversión</h4>

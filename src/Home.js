@@ -21,7 +21,7 @@ const Home = () => {
             
             <div className="home-card p-5 text-center ">
                                   
-                <div className="card-body p-5 ">
+                <div className="card-body p-1 "> 
                     <Card />    
                 </div>        
                 
@@ -43,17 +43,13 @@ const Home = () => {
                 </div>       
             </div>
 
-            {/* <div className="d- flex footer p-5">
-              
-                    
-                    
-                     <Footer/>
-                     
-            </div>                 */}
+            
            
-           
+            <Footer/>
 
         </>
+        
+        
 
 
 
