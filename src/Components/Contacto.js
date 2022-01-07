@@ -1,11 +1,11 @@
-
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import { Link } from 'react-router-dom'; 
 import {Form} from 'react-bootstrap';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMobile} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 
 

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; 
+// import { Link } from 'react-router-dom'; 
 import Contacto from './Components/Contacto';
 import Footer from './Components/Footer';
 import imgcontacto from './img/imgcontacto.jpg'
@@ -16,9 +16,7 @@ const Contact = () => {
             <div className="contact-card">
                     <Contacto/>
             </div>
-            <div className="contact-card">
-                    <Footer/>
-            </div>
+            
             
         </div>
             

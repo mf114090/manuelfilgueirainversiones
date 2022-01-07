@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 import carrusel1 from "./img/carrusel1.jpg";
 import carrusel3 from "./img/carrusel3.jpg";
@@ -96,7 +96,7 @@ const About = () => {
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                     </div>
-                    
+                   
                 </div>
 
 
@@ -105,12 +105,13 @@ const About = () => {
 
 
 
-                <Footer/>
+                
 
 
             
 
         </div>
+        
         
 
 

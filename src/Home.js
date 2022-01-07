@@ -5,7 +5,7 @@ import Card from "./Components/Card";
 // import Menu from "./Components/Menu";
 import Banner from "./Components/Banner";
 import Destacados from "./Components/Destacados";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 
 const Home = () => {
@@ -45,7 +45,7 @@ const Home = () => {
 
             
            
-            <Footer/>
+            {/* <Footer/> */}
 
         </>
         
