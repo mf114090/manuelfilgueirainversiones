@@ -7,27 +7,34 @@ const Menu = () => {
         <div className="navbar bg-light text-dark mb-3">
 			<div className="container">
                 
-                <Link to="/">
+                <div className='navbar-logo'>
 					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
                     
-				</Link> 
+				</div>
 				<div className="ml-auto"> 
-				<Link to="/Login">
-					<span className="text-dark mb-0 fs-4">log in</span>
-				</Link> | {" "}
-				<Link to="/about">
-					<span className="text-dark mb-0 fs-4">About Us</span>
-				</Link> | {" "}
-				<Link to= "/contact">				
-					<span className=" text-dark mb-0 fs-4">Contact Us</span>
-				</Link>| {" "}
-                <Link to= "/News">				
-					<span className=" text-dark mb-0 fs-4">News</span>
-				</Link> 
+				
+					<Link to="/">
+					<span className="text-dark mb-0 fs-4 p-3">Inicio</span>
+						
+					</Link> 
+					
+					
+					{/* <Link to="/Login">
+						<span className="text-dark mb-0 fs-4">log in</span>
+					</Link> | {" "} */}
+					<Link to="/about">
+						<span className="text-dark mb-0 fs-4 p-3">Nosotros</span>
+					</Link> 
+					<Link to= "/contact">				
+						<span className=" text-dark mb-0 fs-4 p-3">Contacto</span>
+					</Link>
+					<Link to="/news">				
+						<span className=" text-dark mb-0 fs-4 p-4">Noticias</span>
+					</Link>  
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Menu;

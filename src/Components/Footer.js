@@ -1,12 +1,22 @@
 import React from "react";
+import Rrss from "./Rrss";
+
 
 const Footer = () => {
     return (
-        <div className="d-flex flex-column flex-md-row align-text-center  px-md-4 bg-dark border-bottom shadow-sm">
-            <h5 className="my-0 mr-md-auto font-weight-normal text-white">
-                copyright
-            </h5>
-        </div>
+        <div className="footer bg-light text-dark mb-3">
+			<div className="container-fluid">
+                <div className="ml-auto">
+                    <Rrss/>
+                </div> 
+                
+            
+        
+             
+            </div>
+        </div>     
+        
+              
         
 
     )

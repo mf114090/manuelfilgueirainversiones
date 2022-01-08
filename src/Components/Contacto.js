@@ -1,4 +1,4 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
 import {Form} from 'react-bootstrap';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

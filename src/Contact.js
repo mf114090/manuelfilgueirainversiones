@@ -1,6 +1,6 @@
 // import { Link } from 'react-router-dom'; 
 import Contacto from './Components/Contacto';
-import Footer from './Components/Footer';
+
 import imgcontacto from './img/imgcontacto.jpg'
 
 
