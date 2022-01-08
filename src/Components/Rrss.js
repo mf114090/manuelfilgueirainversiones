@@ -18,7 +18,7 @@ import {
                     <h4>Siguenos en:</h4>
                 
                     <a href ="https://www.facebook.com/manuelfilgueira.rah">
-                        <span className="icon p-2 " style={{fontSize: "37px"}}>
+                        <span className="icon p-2 text-dark" style={{fontSize: "28px"}}>
                             <FontAwesomeIcon icon={faFacebook } />
                         </span>
                     </a> 
@@ -26,24 +26,24 @@ import {
                 
                     
                     <a href="https://www.instagram.com/rentahousechile.oficial">
-                        <span className="icon p-2" style={{fontSize: "40px" }}>
+                        <span className="icon p-2 text-dark" style={{fontSize: "30px" }}>
                             <FontAwesomeIcon icon={faInstagram} />
                         </span>
                     </a> 
 
                     <a href="https://twitter.com/RAHSantiagoC">
-                        <span className="icon p-2" style={{fontSize: "40px" }}>
+                        <span className="icon p-2 text-dark" style={{fontSize: "30px" }}>
                             <FontAwesomeIcon icon={faTwitter} />
                         </span>
                     </a> 
 
                     <a href="https://www.youtube.com/channel/UCYNmg3HbvoGPS0M_QlgwAhQ">
-                        <span className="icon icon-black p-2" style={{fontSize: "40px" }}>
+                        <span className="icon  p-2 text-dark" style={{fontSize: "30px" }}>
                             <FontAwesomeIcon icon={faYoutube} />
                         </span>
                     </a> 
                     <a href="https://www.youtube.com/channel/UCYNmg3HbvoGPS0M_QlgwAhQ">
-                        <span className="icon p-2" style={{fontSize: "40px" }}>
+                        <span className="icon p-2 text-dark" style={{fontSize: "30px" }}>
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </span>
                     </a> 

@@ -14,7 +14,7 @@ const Menu = () => {
 				<div className="ml-auto"> 
 				
 					<Link to="/">
-					<span className="text-dark mb-0 fs-4 p-3">Inicio</span>
+					<span className="text-dark mb-0 fs-5 p-3">Inicio</span>
 						
 					</Link> 
 					
@@ -23,13 +23,13 @@ const Menu = () => {
 						<span className="text-dark mb-0 fs-4">log in</span>
 					</Link> | {" "} */}
 					<Link to="/about">
-						<span className="text-dark mb-0 fs-4 p-3">Nosotros</span>
+						<span className="text-dark mb-0 fs-5 p-3">Nosotros</span>
 					</Link> 
 					<Link to= "/contact">				
-						<span className=" text-dark mb-0 fs-4 p-3">Contacto</span>
+						<span className=" text-dark mb-0 fs-5 p-3">Contacto</span>
 					</Link>
 					<Link to="/news">				
-						<span className=" text-dark mb-0 fs-4 p-4">Noticias</span>
+						<span className=" text-dark mb-0 fs-5 p-4">Noticias</span>
 					</Link>  
                 </div>
             </div>
