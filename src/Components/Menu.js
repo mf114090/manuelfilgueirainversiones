@@ -7,40 +7,40 @@ const Menu = () => {
         <div className="navbar bg-light text-dark mb-3">
 			<div className="container">
                 
-                <div className='navbar-logo'>
+                <div className='navbar-logo col-md-2'>
 					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
                     
 				</div>
-				<div className="ml-auto"> 
+				<div className="col-md-4"> 
 				
 					<Link to="/">
-						<span className="text-dark mb-0 fs-5 p-3">Inicio</span>
+						<span className="text-dark mb-0 fs-5 p-2">Inicio</span>
 					</Link> 
 					
 					<Link to="/about">
-						<span className="text-dark mb-0 fs-5 p-3">Asesorias</span>
+						<span className="text-dark mb-0 fs-5 p-2">Asesorias</span>
 					</Link> 
 					
 					<Link to="/about">
-						<span className="text-dark mb-0 fs-5 p-3">Propiedades</span>
+						<span className="text-dark mb-0 fs-5 p-2">Propiedades</span>
 					</Link> 
 					
 					
 					<Link to="/about">
-						<span className="text-dark mb-0 fs-5 p-3">Nosotros</span>
+						<span className="text-dark mb-0 fs-5 p-2">Nosotros</span>
 					</Link> 
 					
 					<Link to="/news">				
-						<span className=" text-dark mb-0 fs-5 p-4">Noticias</span>
+						<span className=" text-dark mb-0 fs-5 p-2">Noticias</span>
 					</Link>  
 					
 					<Link to= "/contact">				
-						<span className=" text-dark mb-0 fs-5 p-3">Contacto</span>
+						<span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
 					</Link>
 					
-					{/* <Link to="/Login">
-						<span className="text-dark mb-0 fs-4">log in</span>
-					</Link> | {" "} */}
+					 <Link to="/Login">
+						<span className="text-dark mb-0 fs-5 p-2">ingresar</span>
+					</Link> 
 					
                 
 				</div>
