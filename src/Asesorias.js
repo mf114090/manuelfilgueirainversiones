@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'; 
 
 
 const Asesorias = () => {
@@ -18,8 +19,16 @@ const Asesorias = () => {
                                 En definitiva, generar un espacio de mutua y permanente confianza. Por eso tenemos clientes desde el inicio de nuestras actividades.</p>
                             <p className="card-text">Nos especializamos en la compra, venta y arriendo de propiedades nuevas y usadas, principalmente
                                 en la zona oriente de Santiago.</p>
+                                <Link to= "/contact">				
+						            <span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+					            </Link> 
+                            
+                            
+                            
 
                         </div>
+
+                        
                     </div>
                 </div>
             </div>
@@ -40,6 +49,9 @@ const Asesorias = () => {
                                     En definitiva, generar un espacio de mutua y permanente confianza. Por eso tenemos clientes desde el inicio de nuestras actividades.</p>
                                 <p className="card-text">Nos especializamos en la compra, venta y arriendo de propiedades nuevas y usadas, principalmente
                                     en la zona oriente de Santiago.</p>
+                                <Link to= "/contact">				
+						            <span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+					            </Link>     
 
                             </div>
                         </div>
@@ -59,6 +71,9 @@ const Asesorias = () => {
                                     En definitiva, generar un espacio de mutua y permanente confianza. Por eso tenemos clientes desde el inicio de nuestras actividades.</p>
                                 <p className="card-text">Nos especializamos en la compra, venta y arriendo de propiedades nuevas y usadas, principalmente
                                     en la zona oriente de Santiago.</p>
+                                <Link to= "/contact">				
+						            <span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+					            </Link>        
 
                             </div>
                         </div>
@@ -78,6 +93,9 @@ const Asesorias = () => {
                                     En definitiva, generar un espacio de mutua y permanente confianza. Por eso tenemos clientes desde el inicio de nuestras actividades.</p>
                                 <p className="card-text">Nos especializamos en la compra, venta y arriendo de propiedades nuevas y usadas, principalmente
                                     en la zona oriente de Santiago.</p>
+                                <Link to= "/contact">				
+						            <span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+					            </Link>        
 
                             </div>
                         </div>
@@ -97,6 +115,9 @@ const Asesorias = () => {
                                     En definitiva, generar un espacio de mutua y permanente confianza. Por eso tenemos clientes desde el inicio de nuestras actividades.</p>
                                 <p className="card-text">Nos especializamos en la compra, venta y arriendo de propiedades nuevas y usadas, principalmente
                                     en la zona oriente de Santiago.</p>
+                                <Link to= "/contact">				
+						            <span className=" text-dark mb-0 fs-5 p-2">Agendar Asesoria</span>
+					            </Link>        
 
                             </div>
                         </div>
