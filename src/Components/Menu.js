@@ -17,11 +17,11 @@ const Menu = () => {
 						<span className="text-dark mb-0 fs-5 p-2">Inicio</span>
 					</Link> 
 					
-					<Link to="/about">
+					<Link to="/asesorias">
 						<span className="text-dark mb-0 fs-5 p-2">Asesorias</span>
 					</Link> 
 					
-					<Link to="/about">
+					<Link to="/propiedades">
 						<span className="text-dark mb-0 fs-5 p-2">Propiedades</span>
 					</Link> 
 					

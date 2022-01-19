@@ -9,6 +9,8 @@ import About from './About';
 import Home from './Home';
 import Footer from "./Components/Footer";
 import login from './Components/Login';
+import Asesorias from './Asesorias';
+import Propiedades from './Propiedades';
 
 
 const App = ()=> {
@@ -22,6 +24,8 @@ const App = ()=> {
                 <Route exact path="/News" component ={News} />
                 <Route exact path="/Contact" component ={Contact} />
                 <Route exact path="/About" component ={About} />
+                <Route exact path="/Asesorias" component ={Asesorias} />
+                <Route exact path="/Propiedades" component ={Propiedades} />
                 <Route exact path="/">
                     
 
