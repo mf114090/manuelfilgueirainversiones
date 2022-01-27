@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Menu from './Components/Menu';
+
 import Error404 from './404';
 
 import Contact from './Contact';
@@ -7,17 +7,19 @@ import Contact from './Contact';
 import News from './News';
 import About from './About';
 import Home from './Home';
-import Footer from "./Components/Footer";
-import login from './Components/Login';
+
+import login from './Login';
 import Asesorias from './Asesorias';
 import Propiedades from './Propiedades';
+import Administrador from "./Adminitrador";
+
 
 
 const App = ()=> {
     return (
         <BrowserRouter>
                   
-            <Menu /> 
+            {/* <Menu />  */}
 
             <Switch> 
                 <Route exact path="/LogIn" component ={login} />
@@ -26,6 +28,9 @@ const App = ()=> {
                 <Route exact path="/About" component ={About} />
                 <Route exact path="/Asesorias" component ={Asesorias} />
                 <Route exact path="/Propiedades" component ={Propiedades} />
+                <Route exact path="/Administrador" component ={Administrador} /> 
+                
+                
                 <Route exact path="/">
                     
 
@@ -40,7 +45,7 @@ const App = ()=> {
             
             </Switch>
            
-            <Footer/>
+            {/* <Footer/> */}
             
             
             

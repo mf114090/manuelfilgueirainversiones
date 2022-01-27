@@ -1,16 +1,19 @@
 import React from "react";
 import Carrusel from "./Components/Carrusel";
 import Card from "./Components/Card";
-// import Footer from "./Components/Footer";
-// import Menu from "./Components/Menu";
+import Footer from "./Components/Footer";
+import Menu from "./Components/Menu";
 import Banner from "./Components/Banner";
 import Destacados from "./Components/Destacados";
-// import Footer from "./Components/Footer";
+
 
 
 const Home = () => {
     return (
         <>
+          
+                    <Menu />
+               
             
            
             <div className="home-headers">
@@ -45,7 +48,7 @@ const Home = () => {
 
             
            
-            {/* <Footer/> */}
+            <Footer/> 
 
         </>
         
