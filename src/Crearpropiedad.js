@@ -15,10 +15,13 @@ const Crearpropiedad = () => {
                 <div className="container p-5">
                     <div className="card ">
                         <div className="card-header text-center">
-                            <h4>Ingresar Nuevo Contacto</h4>
+                            <h4>Ingresar Nueva Propiedad</h4>
                         </div>
                         <div className="card-body " > 
-                            {/* <div className="container"> */}
+                            <div className="container">
+                                <h2 className="text-center"><strong>Datos del Propietario</strong></h2>
+                            </div>
+                                
                                 <Form>
                                     <Form.Group className="mb-2 " Id="name">
                                         <Form.Label>Nombre</Form.Label>
@@ -37,13 +40,18 @@ const Crearpropiedad = () => {
                                         <Form.Control type="email" placeholder="email@example.com" />
                                     </Form.Group>
                                 </Form>
+                                
+                                
+                                
+                                
+                                
                                 <Button className=" btn btn-success  " type="submit" value="save"> Guardar</Button>
                                 <Link to="/Listadodepropiedades">
                                     <span className="btn btn-danger mx-2  text-white  fs-7 p-2">Regresar</span>
                                 </Link> 
-                            {/* </div> */}
+                            </div> 
                         
-                        </div>
+                        
                         
                            
                             
