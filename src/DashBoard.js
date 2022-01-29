@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 
 
 
-const Administrador = () => {
+const DashBoard = () => {
    
 
 
@@ -13,12 +13,12 @@ const Administrador = () => {
             <div className="menu">
                 <MenuAdm/>
             </div>
-            {/* <div className="contact">
-                <div className="contact-body">
-                    
-                <h1>Noticias</h1>
+            <div className="contact text-center">
                 
-            </div> */}
+                    
+                <h1>dashboard</h1>
+                
+            </div>
             <div className="footer ">
                     <Footer/>
             </div> 
@@ -27,4 +27,4 @@ const Administrador = () => {
 }
 
 
-export default Administrador;
+export default DashBoard;

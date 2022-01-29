@@ -11,8 +11,9 @@ import Home from './Home';
 import login from './Login';
 import Asesorias from './Asesorias';
 import Propiedades from './Propiedades';
-import Administrador from "./Adminitrador";
-
+import DashBoard from "./DashBoard";
+import Listadodecontactos from "./Listadodecontactos";
+import Crearcontacto from "./Crearcontacto";
 
 
 const App = ()=> {
@@ -28,8 +29,9 @@ const App = ()=> {
                 <Route exact path="/About" component ={About} />
                 <Route exact path="/Asesorias" component ={Asesorias} />
                 <Route exact path="/Propiedades" component ={Propiedades} />
-                <Route exact path="/Administrador" component ={Administrador} /> 
-                
+                <Route exact path="/DashBoard" component ={DashBoard} /> 
+                <Route exact path="/Listadodecontactos" component ={Listadodecontactos} /> 
+                <Route exact path="/Crearcontacto" component ={Crearcontacto} /> 
                 
                 <Route exact path="/">
                     

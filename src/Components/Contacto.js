@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMobile} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { Button} from "react-bootstrap";
 
 
 
@@ -37,10 +37,9 @@ const Contacto = () => {
                                 <Form.Control as="textarea" rows={4} />
                             </Form.Group>
                         </Form>
-                        <Link to= "/News">				
-					        <span className=" text-dark mb-0 fs-4">Enviar</span>
-				        </Link> 
+                        <Button className=" btn btn-success  " type="submit" value="save"> enviar</Button>
                     </div>
+                   
                 </div> 
                 <div className="col">
                     <div className="card h-100 border-white text-center" >

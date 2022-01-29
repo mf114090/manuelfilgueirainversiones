@@ -35,11 +35,11 @@ const Login = () => {
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
-                        <Link to= "/administrador">
-                            <span className="text-dark mb-0 fs-5 p-3">Ingresar</span>
+                        <Link to= "/Dashboard">
+                            <span className="btn btn-success text-white mb-3 mx-2 fs-6 ">Ingresar</span>
                         </Link> 
                         <Link to= "/">
-                            <span className="text-dark mb-0 text-center fs-5 p-5">Regresar</span>
+                            <span className="btn btn-warning text-dark mb-3 mx-2 text-center  fs-6 ">Regresar</span>
                         </Link> 
                         {/* <Button variant="primary" type="submit">
                         Ingresar

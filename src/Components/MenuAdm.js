@@ -4,22 +4,24 @@ import Rentahousecl from "../img/rentahousecl.png";
 
 const MenuAdm = () => {
     return (
-        <div className="navbar bg-light text-dark mb-3">
+        <div className="navbar bg-light text-dark mb-3 md-12">
 			<div className="container-fluid">
                 
-                <div className='navbar-logo col-md-2'>
-					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
+                <div className='navbar-logo col-md-3'>
+					<Link to="/DashBoard">
+						<img src={Rentahousecl} className="d-block w-50"   alt="..."/>
+					</Link>
                     
 				</div>
-				<div className="col-md-4"> 
+				<div className="col-md-3"> 
 				
 										
-					<Link to="/listacontacto">
-						<span className="text-dark mb-0 fs-5 p-2">Propiedades</span>
+					<Link to="/listadodecontactos">
+						<span className="text-dark mb-0 fs-5 p-2">Contactos</span>
 					</Link> 
 					
 					<Link to="/listapropiedades">
-						<span className="text-dark mb-0 fs-5 p-2">Contactos</span>
+						<span className="text-dark mb-0 fs-5 p-2">Propiedades</span>
 					</Link> 
 					
 					
@@ -30,14 +32,14 @@ const MenuAdm = () => {
 					<Link to="/agentes">				
 						<span className=" text-dark mb-0 fs-5 p-2">Agentes</span>
 					</Link>   
-{/* 					
-					<Link to= "/contact">				
-						<span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+					
+					<Link to= "/">				
+						<span className=" btn btn-danger text-white mb-0 fs-7 p-2">Salir</span>
 					</Link>
 					
-					<Link to="/Login">
+					{/* <Link to="/Login">
 						<span className="text-dark mb-0 fs-5 p-2">ingresar</span>
-					</Link>  */}
+					</Link>   */}
 					
                 
 				</div>
