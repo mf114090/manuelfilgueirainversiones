@@ -14,6 +14,8 @@ import Propiedades from './Propiedades';
 import DashBoard from "./DashBoard";
 import Listadodecontactos from "./Listadodecontactos";
 import Crearcontacto from "./Crearcontacto";
+import Listadodepropiedades from "./Listadodepropiedades";
+import Crearpropiedad from "./Crearpropiedad";
 
 
 const App = ()=> {
@@ -32,6 +34,8 @@ const App = ()=> {
                 <Route exact path="/DashBoard" component ={DashBoard} /> 
                 <Route exact path="/Listadodecontactos" component ={Listadodecontactos} /> 
                 <Route exact path="/Crearcontacto" component ={Crearcontacto} /> 
+                <Route exact path="/Listadodepropiedades" component ={Listadodepropiedades} /> 
+                <Route exact path="/Crearpropiedad" component ={Crearpropiedad} /> 
                 
                 <Route exact path="/">
                     

@@ -4,7 +4,7 @@ import Rentahousecl from "../img/rentahousecl.png";
 
 const MenuAdm = () => {
     return (
-        <div className="navbar bg-light text-dark mb-3 md-12">
+        <nav className="navbar bg-light text-dark mb-3 md-12">
 			<div className="container-fluid">
                 
                 <div className='navbar-logo col-md-3'>
@@ -20,7 +20,7 @@ const MenuAdm = () => {
 						<span className="text-dark mb-0 fs-5 p-2">Contactos</span>
 					</Link> 
 					
-					<Link to="/listapropiedades">
+					<Link to="/listadodepropiedades">
 						<span className="text-dark mb-0 fs-5 p-2">Propiedades</span>
 					</Link> 
 					
@@ -44,7 +44,7 @@ const MenuAdm = () => {
                 
 				</div>
             </div>
-        </div>
+        </nav>
     );
 }
 

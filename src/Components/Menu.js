@@ -4,14 +4,14 @@ import Rentahousecl from "../img/rentahousecl.png";
 
 const Menu = () => {
     return (
-        <div className="navbar bg-light text-dark mb-3">
+        <nav className="navbar bg-light text-dark mb-3 mf">
 			<div className="container-fluid">
                 
                 <div className='navbar-logo col-md-2 '>
 					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
                     
 				</div>
-				<div className="col-md-4"> 
+				<div className="col-md-6"> 
 				
 					<Link to="/">
 						<span className="text-dark mb-0 fs-5 p-2">Inicio</span>
@@ -35,17 +35,17 @@ const Menu = () => {
 					</Link>  
 					
 					<Link to= "/contact">				
-						<span className=" text-dark mb-0 fs-5 p-2">Contacto</span>
+						<span className=" text-dark mb-0 fs-5 ">Contacto</span>
 					</Link>
 					
 					<Link to="/Login">
-						<span className="text-dark mb-0 fs-5 p-2">ingresar</span>
+						<span className="btn btn-primary  mx-3 fs-6 p-2">ingresar</span>
 					</Link> 
 					
                 
 				</div>
             </div>
-        </div>
+        </nav>
     );
 }
 
