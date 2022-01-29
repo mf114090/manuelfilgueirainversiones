@@ -5,9 +5,9 @@ import Rentahousecl from "../img/rentahousecl.png";
 const Menu = () => {
     return (
         <div className="navbar bg-light text-dark mb-3">
-			<div className="container">
+			<div className="container-fluid">
                 
-                <div className='navbar-logo col-md-2'>
+                <div className='navbar-logo col-md-2 '>
 					<img src={Rentahousecl} className="d-block w-75"   alt="..."/>
                     
 				</div>
